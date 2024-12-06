@@ -13,11 +13,9 @@ public class Atividade6_while {
 				do {
 					System.out.print("Digite um número: ");
 					numero = ler.nextInt();
-					if(numero>0) {
-						if(numero%3==0) {
+						if(numero%3==0 && (numero>0 || numero<0)) {
 							total = total + numero;
 							quantidade++;
-						}
 					}
 				}while(numero != 0);
 				System.out.println();

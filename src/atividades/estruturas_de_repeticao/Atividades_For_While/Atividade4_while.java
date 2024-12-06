@@ -34,15 +34,11 @@ public class Atividade4_while {
 				back++;
 			}
 		}
-		
-		
-		
+	
 		System.out.println();
 		media_idades = (float)(total_idade/total_pessoas);
 		
 		//saida   
-		 
-		
 		System.out.println("Total de pessoas desenvolvedoras Backend: "+back);
 		System.out.println("Total de Mulheres Cis e Trans desenvolvedoras Frontend: "+m_front);
 		System.out.println("Total de Homens Cis e Trans desenvolvedores Mobile maiores de 40 anos: "+h_mobile);
